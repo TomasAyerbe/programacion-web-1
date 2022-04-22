@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <header>
+        <h1>Tomás Alberto Ayerbe</h1>
+        <img src="img/profile-photo.jpg" alt="">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <article>
+                <h2>Datos de contacto</h2>
+                <p>Teléfono: <a href="tel:+541138777974">11-3877-7974</a></p>
+                <p>Email: <a href="mailto:tayerbe@alumno.unlam.edu.ar">tayerbe@alumno.unlam.edu.ar</a></p> 
+            </article>
+
+            <article>
+                <h2>Enviar tu consulta</h2>
+                <form action="#" method="post" >
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                    <br><br>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido" id="apellido" required>
+                    <br><br>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" name="telefono" id="telefono" required>
+                    <br><br>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" name="email" id="email" required>
+                    <br><br>
+                    <label for="paginaweb">Página web:</label>
+                    <input type="url" name="paginaweb" id="paginaweb" required>
+                    <br><br>
+                    <label for="continente">Continente:</label>
+                    <select name="continente" id="continente" required>
+                        <option value="">Selecciona tu continente...</option>
+                        <option value="1">África</option>
+                        <option value="2">América</option>
+                        <option value="3">Asia</option>
+                        <option value="4">Europa</option>
+                        <option value="5">Oceanía</option>
+                    </select>
+                    <br><br>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea name="mensaje" id="mensaje" placeholder="Deja tu mensaje..." cols="30" rows="10" required></textarea>
+                    <br><br>
+                    <input type="submit" value="Enviar" name="enviar">
+                </form>
+            </article>
+        </section>
+        
+    </main>
+</body>
