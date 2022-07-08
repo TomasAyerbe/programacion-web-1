@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programación WEB I - 2do Parcial</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/funciones.js"></script>
+</head>
+<body>
+    <header class="encabezado">
+        <h1>2do Parcial</h1>
+    </header>
+    <main class="contenedor">
+        <article class="rectangulo" id="rectangulo1">
+            <p class="texto">Universidad</p>
+        </article>
+        <article class="rectangulo">
+            <label for="universidad">Ingresá una universidad:</label>
+            <select name="universidad" id="universidad" class="universidad">
+                <option value="">Seleccione una universidad</option>
+                <option value="1">UNLAM</option>
+                <option value="2">UAI</option>
+                <option value="3">UNSAM</option>
+            </select>
+            <label for="color-fondo">Cambiá el color de fondo:</label>
+            <select name="color-fondo" id="color-fondo" class="color-fondo">
+                <option value="">Seleccione un color de fondo</option>
+                <option value="1">Rojo</option>
+                <option value="2">Verde</option>
+                <option value="3">Azul</option>
+            </select>
+            <p>Cambiá el color del texto:</p>
+            <div class="cambiar-color-texto">
+                <input type="radio" name="color-texto" value="blanco"><label for="color-texto">Blanco</label>
+                <input type="radio" name="color-texto" value="gris"><label for="color-texto">Gris</label>
+                <input type="radio" name="color-texto" value="amarillo"><label for="color-texto">Amarillo</label>
+            </div>
+        </article>
+    </main>
+    <footer class="pie-pagina">
+        <p>Ayerbe, Tomás Alberto - DNI: 43.866.944</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contenedor, .encabezado, .pie-pagina {
+    display: flex;
+    width: 60%;
+    padding: 10px;
+    border-top: 1px solid #000; 
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.encabezado, .pie-pagina, .rectangulo {
+    flex-direction: column;
+}
+
+.contenedor, .pie-pagina {
+    font-family: 'Calibri', sans-serif;
+}
+
+.encabezado {
+    align-items: flex-start;
+}
+
+.pie-pagina {
+    border-bottom: 1px solid #000;
+    align-items: center;
+}
+
+.rectangulo {
+    width: 50%;
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid #000;
+    display: flex;
+}
+
+.universidad, .color-fondo {
+    margin: 8px 0;
+}
+
+.cambiar-color-texto {
+    display: flex;
+}
+
+.cambiar-color-texto label {
+    margin: 0 8px;
+}
+
+#rectangulo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo-rojo {
+    background-color: red;
+}
+
+.fondo-verde {
+    background-color: green;
+}
+
+.fondo-azul {
+    background-color: blue;
+}
+
+.texto-blanco {
+    color: #fff;
+}
+
+.texto-gris {
+    color: grey;
+}
+
+.texto-amarillo {
+    color: yellow;
+}
